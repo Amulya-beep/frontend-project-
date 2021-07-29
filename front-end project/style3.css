@@ -1,0 +1,173 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;  
+}
+
+nav  {
+    width: 100vw;
+border-top: 6px solid blue;
+text-align: center;
+background-color: black;
+}
+a{
+    text-decoration: none;
+    color:blue;
+}
+   li a  {
+    display: block;
+    padding: 15px 25px ;
+    font-size: 1.2em;
+    color: yellow;
+}
+a:hover{
+    color: blanchedalmond;
+}
+.agency{
+    display: flex;
+     justify-content: space-between;
+    background-color: yellowgreen;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.logo:hover{
+    color:blanchedalmond;    
+}
+.agency:hover{
+background-color: brown;
+}
+@media screen and (min-width:576px) {
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+     nav ul li{
+         flex: 1 0 auto;
+     }
+     .agency{
+display: block;
+text-align: center  ;
+     }
+     .fas{
+display:none
+     }
+}
+#banner{
+    width: 100vw;
+    height: 100vh;
+    background-image:url(./utec.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    color:chocolate;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+.btn, .off{
+    border: 2px solid yellow;
+    margin-top: 15px;
+    width: 7em;
+    height: 3em;
+    background: transparent;
+color: yellow;
+margin-right: 2em;
+}
+button:hover{
+    background-color: yellow;
+    color: purple;
+}
+#skills{
+    width: 100vw;
+    background-color: burlywood;
+    padding: px 0px;
+}
+.services{
+    text-align: center;
+    max-width: 95vw;
+    padding: 60px 0px;
+    color: rgb(80, 255, 147);
+}
+.far{
+    margin-top: 20px ;
+    font-size: 60px;
+    letter-spacing: 1px;
+    color:black;
+}
+.fas{
+    font-size: 60px;
+    margin-top: 5px;
+      letter-spacing: 1px;
+       color:black;
+}
+.services>h1{
+    color: blue;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+    
+}
+.don{
+    text-decoration:underline;
+    text-align: center;
+    margin-left: 100%;
+font-size: 2em;
+color: blueviolet;
+}
+@media screen and (min-width:576px) {
+    .services{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 1em;
+
+    }
+}
+main{
+    text-align: center;
+    width: 100%;
+ background-color:cornflowerblue  
+}
+.image{
+    width: 5em;
+    height: 5em;
+}
+#know{
+    width: 5em;
+    display: block;
+    align-items: center;
+    margin-left: 45%;
+}
+.rev{
+    text-decoration: underline;
+    padding-top: 3em;
+    margin-right: 3em;
+
+}
+#info{
+padding-top: 1em;
+padding-bottom: 1em;
+font-family: 'Fuggles', cursive;
+}
+.review{
+    border: solid white 5px;
+    width: 50%;
+margin-left: 20%;
+background-color: teal;
+  color:black; 
+  box-shadow: 4px 2px 5px 26px rgba(130,0,0,0.75);
+-webkit-box-shadow: 4px 2px 5px 26px rgba(130,0,0,0.75);
+-moz-box-shadow: 4px 2px 5px 26px rgba(130,0,0,0.75);
+
+}
+#job{
+    color:gold;
+}
+.prev-btn, .random-btn{
+    color: blue;
+}
